@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.header img {
+    max-width: 500px;
+    margin: 40px;
+  content: center;
+ 
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-details h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #0033a0;
+}
+
+.user-details .dui {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.option {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #d6d8db;
+}
+
+.voting-info {
+    text-align: left;
+}
+
+.voting-info h3 {
+    color: #0033a0;
+    margin-bottom: 10px;
+}
+
+.voting-info p {
+    margin: 0 0 20px 0;
+}
+
+.voting-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.detail {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.detail strong {
+    display: block;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+.location-info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.location-info h3 {
+    color: #0033a0;
+    margin-bottom: 10px;
+}
+
+.map-link {
+    text-decoration: none;
+}
+
+.map-box {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius
