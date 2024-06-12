@@ -4,8 +4,10 @@ import axios from 'axios';
 import { useState } from 'react';
 import { Register } from '../types/Register';
 import style from './page.module.css'
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
+  const router = useRouter()
   const [form] = Form.useForm();
   const [loading, setLoading] = useState(false);
 
@@ -24,7 +26,8 @@ export default function Home() {
     } finally {
       setLoading(false);
     }
-  };
+  }
+
   return (
     <div className={style.div}>
     <Card
@@ -79,9 +82,9 @@ export default function Home() {
         </Form.Item>
       </Form>
     </Card>
-
     <Button
       type='primary'
+      onClick={() => router.push('/pages/find')}
     >
       Buscar usuarios
     </Button>
