@@ -1,7 +1,7 @@
 'use client'
 import { Card, Form, Input, Button, message } from 'antd'
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styles from './page.module.css'
 import { User, findUser } from '@/types/Register'
 
